@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: white;
+}
+.part1 {
+    display: flex;
+    justify-content: center;
+}
+.first-box {
+    background-image: url('/images/IMG_20220908_141718.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 350px;
+}
+.my-icon {
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+.icon-box {
+    gap: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-bar {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 50%;
+}
+ul li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.562);
+    font-weight: bold;
+}
+.home {
+    color: rgba(255, 0, 0, 0.568);
+}
+.flex {
+    margin-right: 200px;
+    color: rgb(221, 35, 35);
+}
+.logo{
+    background-color: rgb(241, 60, 60);
+    width: 5%;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.text {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.design {
+    margin-top: 20px;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.671);
+}
+.rule {
+    border-top: .5px solid white;
+    width: 160px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    background-color: rgb(233, 44, 44);
+    padding: 10px;
+    font-size: 8px;
+    color: white;
+    border: none;
+    margin-top: 13px;
+    border-radius: 3px;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dotted, .dotted1, .dotted2 {
+    border-radius: 100%;
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    margin-top: 40px;
+}
+.dotted1, .dotted2 {
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.grid-text {
+    text-align: center;
+    margin-top: 50px;
+}
+.service{
+    font-weight: bolder;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.836);
+    text-align: center;
+}
+.website {
+    margin-top: 10px;
+    font-size: 10px;
+    color:rgba(0, 0, 0, 0.562) ;
+}
+.grid-boxes, .grid-box2, .grid-box3 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 160px 160px 160px 160px;
+    margin-top: 20px;
+}
+.box1, .box2, .box3, .box4{
+    height: 160px;
+    background-color: #44ce49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+.box2 {
+    height: 160px;
+    background-color: rgb(243, 84, 26);
+    margin-left: 15px;
+}
+.box3 {
+    height: 160px;
+    background-color: rgb(73, 73, 202);
+    margin-left: 15px;
+}
+.box4 {
+    height: 160px;
+    background-color: rgb(34, 204, 34);
+    margin-left: 15px;
+}
+.grid-text2 {
+    text-align: center;
+    margin-top: 50px;
+}
+.grid-box2 {
+    margin-top: 30px;
+}
+.box5 {
+    height: 130px;
+    background-image: url('/images/image1.jpeg');
+    background-size: cover;
+}
+.box6, .box7, .box8 {
+    height: 130px;
+    background-image: url('/images/pexels-balazs-simon-7532176.jpg');
+    background-size: cover;
+    margin-left: 15px;
+}
+.box7 {
+    background-image: url('/images/image3.jpeg');
+}
+.box8 {
+    background-image: url('/images/pexels-tony-sebastian-9944662.jpg');
+}
+.box9 {
+    height: 130px;
+    background-image: url('/images/pexels-engin-akyurt-3368246.jpg');
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.box10, .box11, .box12 {
+    height: 130px;
+    background-image: url('/images/image2.jpeg');
+    background-size: cover;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.box11 {
+    background-image: url('/images/pexels-kehn-hermano-7148953.jpg');
+}
+.box12 {
+    background-image: url('/images/image5.jpeg');
+}
